@@ -1,0 +1,417 @@
+#title {
+    background-image: linear-gradient(rgb(132, 88, 183), rgb(82, 119, 111));
+    color: #fff;
+    padding: 2% 10% 0;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+h2 {
+    font-family: "ubuntu";
+    font-size: 2rem;
+    line-height: 1.2;
+    color: white;
+
+}
+
+
+h3 {
+    font-family: "Montserrat";
+}
+
+p {
+    color: black;
+
+}
+
+body {
+    font-family: "Montserrat-medium";
+
+}
+
+.slogan {
+    font-size: 3.2rem;
+    font-family: "ubuntu";
+    line-height: 1;
+    font-weight: bold;
+
+}
+
+
+
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+    z-index: 1;
+    
+}
+
+.navbar2 {
+    right: 10%;
+}
+
+
+.navbar-brand {
+
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+
+}
+
+.logo {
+    height: 20%;
+    width: 20%;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: black;
+}
+
+
+
+.nav-item {
+
+    padding: 0 18px;
+    
+}
+
+.nav-link {
+
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 10% 3% 20% 5%;
+    text-align: center;
+}
+
+/* title image */
+
+.title-image {
+    width: 50%;
+    transform: rotate(25deg);
+    align-content: right;
+    padding-left: 2%;
+    position: absolute;
+    right: 25%;
+}
+
+/* features section */
+
+#features {
+    padding: 5% 5% 5% 5% ;
+    background-color: rgb(82, 119, 111);
+    position: relative;
+    background-image: url(../images/spacer.png);
+    
+
+}
+
+.mint {
+    text-align: center;
+    padding: 0 5%;
+    font-family: "ubuntu";
+    display:flex;
+    object-position: center;
+    margin: auto;
+    
+
+}
+
+
+
+.gif {
+    border-style: solid;
+    border-color: rgb(132, 88, 183);
+    border-radius: 70%;
+    width: 400px;
+    transform: scaleX(-1);
+    align-content: left;
+    margin-top: 5%;
+    position: absolute;
+    right: 10%;
+    object-fit: scale-down;
+    
+}
+.gif2 {
+    border-style: solid;
+    border-color: rgb(132, 88, 183);
+    border-radius: 70%;
+    width: 400px;
+    align-content: right;
+    margin-top: 5%;
+    position: absolute;
+    left: 10%;
+    object-fit: scale-down;
+    
+}
+.wallet {
+    font-size: 1rem;
+    padding: 10px;
+
+}
+.wallet2 {
+    font-size: 0.65rem;
+
+}
+
+.minttext {
+    margin-top: 15%;
+    position: relative;
+}
+
+.mint2 {
+    color: black;
+}
+
+.box {
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(132, 88, 183);
+    border-radius: 80px;
+    background:rgb(254, 236, 255);
+    margin: auto;
+    
+}
+
+.icon2 {
+    color: black;
+}
+
+
+.social {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.social:hover {
+    color: #ef8172;
+}
+
+
+/* Testimonial */
+
+#testimonials {
+    text-align: center;
+    background-image: linear-gradient(rgb(82, 119, 111), rgb(132, 88, 183));
+    color: #fff;
+
+}
+
+.carousel-item {
+    padding: 5% 5%;
+}
+
+
+.test-image {
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    background-color:rgb(132, 88, 183);
+    color: black;
+    padding: 5% 10%;
+}
+
+.p1 {
+
+    margin-bottom: 10px;
+}
+
+.card-header {
+    background-color: rgb(82, 119, 111);
+    
+
+}
+
+
+/* Call to action */
+
+#cta {
+    background-image: linear-gradient(rgb(132, 88, 183), rgb(82, 119, 111));
+    text-align: center;
+    padding: 5% 20% 5% 20%;
+}
+
+
+.download-button1 {
+    margin: 10% 2% 10% 2%;
+    text-align: center;
+}
+
+
+.faq {
+    margin: 5%;
+}
+/* team */
+
+
+#team {
+    background-color: rgb(82, 119, 111);
+    padding: 0% 15%;
+    text-align: center;
+    
+}
+
+.slogan3 {
+    font-size: 3.5rem;
+    font-family: "ubuntu";
+    line-height: 1;
+    font-weight: bolder;
+    padding-bottom: 7%;
+}
+
+.teampic {
+    height: 40%;
+    width: 40%;
+    border-radius: 100%;
+    padding: 0% 7% 0% 7%;
+    margin-bottom: 0;
+}
+
+.info {
+    height: 30%;
+    width: 40%;
+
+}
+
+.infospacer {
+    padding-top: 0%;
+    margin-top: 0;
+}
+/* footer */
+
+#footer {
+    padding: 2% 15%;
+    background-image: linear-gradient(rgb(82, 119, 111), rgb(132, 88, 183));
+    text-align: center;
+    
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: rgb(19, 18, 19);
+}
+
+
+
+.card {
+    border-style: solid;
+    border-color: rgb(82, 119, 111);
+    border-radius: 5%;
+    border-width: 5px;
+
+}
+
+
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 65%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #features {
+
+        padding: 0% 10% ;
+    }
+
+    .box {
+        border-style: solid;
+        border-width: 10px;
+        border-color: rgb(132, 88, 183);
+        border-radius: 100px;
+        background:rgb(254, 236, 255);
+        width: 500px;
+        padding-top: 5%;
+        margin: auto;
+    
+        
+    }
+
+    .mint {
+        text-align: center;
+        font-family: "ubuntu";
+        position:relative;
+        padding-top: 15%;
+    
+    }
+
+    .wallet {
+        font-size: 0.65rem;
+
+    }
+    .wallet2 {
+        font-size: 0.65rem;
+
+    }
+    
+    .gif {
+        display: none;
+    }
+
+    .gif2 {
+        display: none;
+    }
+
+    .test-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+
+    .f1 {
+        font-size: 1rem;
+    }
+
+    .infospacer {
+        height: 40%;
+    width: 80%;
+    }
+}
+
+@media (max-width: 1620px) {
+    .gif {
+        height:250px;
+        width: 250px;
+    }
+
+    .gif2 {
+        height:250px;
+        width: 250px;
+    }
+}
