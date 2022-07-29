@@ -134,7 +134,7 @@ body {
     background-color: rgb(132, 88, 183);
     color: white;
     border: white;
-    
+    width: 10%;
 }
 
 #decrement {
