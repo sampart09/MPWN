@@ -394,7 +394,7 @@ body {
 
     }
     .wallet2 {
-        font-size: 0.65rem;
+        font-size: 0.55rem;
 
     }
     
@@ -435,7 +435,7 @@ body {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 690px) {
 
     .download-button1 {
         margin: 1% 2% 1% 2%;
