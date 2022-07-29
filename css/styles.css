@@ -435,10 +435,10 @@ body {
     }
 }
 
-@media (max-width: 690) {
+@media (max-width: 390px) {
 
     .download-button1 {
-        margin: 10% 10x 10% 10px;
+        margin: 1% 2% 1% 2%;
         text-align: center;
     }
 
