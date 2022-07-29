@@ -135,6 +135,7 @@ body {
     color: white;
     border: white;
     width: 15%;
+    text-align: center;
 }
 
 #decrement {
