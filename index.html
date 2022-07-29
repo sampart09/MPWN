@@ -118,6 +118,30 @@
                     <h1 class="total">
                       <span id="totalsupply"></span><br>/10000
                     </h1>
+                    <br>
+                    <div>
+                      <input type="button" id="decrement" value="-">
+                      <input class="quantity" type="number" min="1" max="10" value="1" id="number" name="number" />
+                      <input type="button" id="increment" value="+">
+                      <script language='javascript' type="text/javascript">
+                        $(document).ready(function () {
+
+                          $("#increment").click(function () {
+                            if ($('#number').val() != "10") {
+                              var $n = $("#number");
+                              $n.val(Number($n.val()) + 1);
+                            }
+                          });
+
+                          $("#decrement").click(function () {
+                            if ($('#number').val() != "1") {
+                              var $n = $("#number");
+                              $n.val(Number($n.val()) - 1);
+                            }
+                          });
+                        });
+                      </script>
+                    </div>
                     <button class="btn btn-dark btn-lg download-button" id="mint">
                       <strong>Mint a Masked Punk</strong>
                     </button>
@@ -645,19 +669,26 @@
                     var accounts = await web3.eth.getAccounts();
                     account = accounts[0];
                     document.getElementById('wallet-address').textContent = account;
+
                     contract = new web3.eth.Contract(ABI, ADDRESS);
-                    document.getElementById('mint').onclick = () => {
+
+                    document.getElementById('mint').onclick = async () => {
+                      var amount = Number(document.querySelector("[name=number").value);
+                      var price = "5000000000000000";
+                      var totalAmount = (amount *  price) ;
+                      var totalGas = amount * 125000;
                       contract.methods.mint(account).send({
                         from: account,
-                        value: "5000000000000000",
-                        gasLimit: 167000
+                        value: totalAmount,
+                        gasLimit: totalGas,
 
-                      })
+
+                      });
                     }
                     var totalsupply = await contract.methods.totalSupply().call();
                     document.getElementById('totalsupply').textContent = totalsupply
 
-                  }
+                  };
                 })();
               </script>
             </div>
