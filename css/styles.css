@@ -434,3 +434,11 @@ body {
         width: 250px;
     }
 }
+
+@media (max-width: 390) {
+
+    #opensea {
+        margin: 1% 3% 20% 5%;
+    text-align: center;
+    }
+}
