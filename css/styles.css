@@ -130,6 +130,34 @@ body {
 
 }
 
+#number {
+    background-color: rgb(132, 88, 183);
+    color: white;
+    border: white;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+#decrement {
+    background-color: rgb(132, 88, 183);
+    color: white;
+    border: white;
+
+}
+ #increment {
+    background-color: rgb(132, 88, 183);
+    color: white;
+    border: white;
+
+
+ }
+
 
 
 .gif {
