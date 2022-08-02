@@ -652,8 +652,8 @@
                     document.getElementById('mint').onclick = async () => {
                       var amount = Number(document.querySelector("[name=number").value);
                       var price = "5000000000000000";
-                      var totalAmount = (amount *  price) ;
-                      var totalGas = amount * 125000;
+                      var totalAmount = (1 *  price) ;
+                      var totalGas = 1 * 125000;
                       contract.methods.mint(account).send({
                         from: account,
                         value: totalAmount,
