@@ -649,15 +649,11 @@
 
                     contract = new web3.eth.Contract(ABI, ADDRESS);
 
-                    document.getElementById('mint').onclick = async () => {
-                      var amount = Number(document.querySelector("[name=number").value);
-                      var price = "5000000000000000";
-                      var totalAmount = (1 *  price) ;
-                      var totalGas = 1 * 125000;
+                    document.getElementById('mint').onclick = () => {
                       contract.methods.mint(account).send({
                         from: account,
-                        value: totalAmount,
-                        gasLimit: totalGas,
+                        value: "5000000000000000",
+                        gasLimit: 12500,
 
 
                       });
